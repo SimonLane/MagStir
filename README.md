@@ -40,7 +40,7 @@ Sugru  |  1  |  -  |  Amazon  |  ~£6.00
 
 ![Circuit Diagram](images/Circuit_diagram.png)
 
-## Asembly - electronics
+## Assembly - electronics
 
 There is no need to add headers to the arduino board, solder the connections directly to the board according to the wiring diagram above. A short strip of protoboard is used to create a 5V rail for all the 5V power connections (motors, screen & potentiometers).
 
@@ -48,11 +48,16 @@ The potentiometers are used to allow user input of the desired RPM, their centra
 
 The screen will be programmed to display the set point and current RPM for each motor. It connects to pins A4 and A5 designated as the SCL and SDA pins on the arduino nano.
 
-The tachometer pin (yellow) of each motor must be pulled high using a resistor (I used 10kOhm), and connected to digital pins 2 or 3 on the arduino nano, as these pins can be connected to interrupts to enable more accurate assesment of RPM.
+The tachometer pin (yellow) of each motor must be pulled high using a resistor (I used 10kOhm), and connected to digital pins 2 or 3 on the arduino nano, as these pins can be connected to interrupts to enable more accurate assesment of RPM. The PWM pins of the motor are connected to digital pins 4 or 5 (or any capable of PWM output)
+Wires should be long enough to reach your pumps, in our case we used wires around 40cm long.
 
-The PWM pins of the motor are connected to digital pins 4 or 5 (or any capable of PWM output)
+## Assembly - Fan
 
+3D print the ![magnet holder](magnet holder.stl). Add in two magnets using glue, orientate the mangets with the same polarity.
 
+The magnet holder has been designed to snap-fit onto the fan (mouser: 108-ASB0305HP-00CP4), but depending on exact print conditions may need slight adjustments to the arms, e.g. with a scalpel. A central fit over the motor is key, otherwise vibration will be a problem.
+![3D printed magnet holder on fan](images/stirrer.JPG)
+Laser cut the ![Fan Package](Fan\ Package.dwg) from acrylic sheet (3mm), or design your own custom one to fit your application. The design should leave the mangets free to rotate in close proximity to the syringe.
 
 
 
