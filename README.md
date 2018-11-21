@@ -64,5 +64,16 @@ Laser cut the ![Fan Package](Fan%20Package.dwg) from acrylic sheet (3mm), or des
 The screen and potentiometers were attached to the controller front plate first with hot glue. Then other components were added into the remainng spaces. ![inside controller](images/controller_inside.JPG)
 
 
+## Arduino code
+
+The provided ![arduino code](Stirrer%20PID.ino) can be uploaded to the board follow the instructions ![here](https://www.arduino.cc/en/Guide/HomePage) to install the Arduino IDE and ![upload the script](https://www.arduino.cc/en/Guide/ArduinoNano#toc5).
+
+
+
+
+
+
+
+
 
 
