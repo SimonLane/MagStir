@@ -53,11 +53,11 @@ Wires should be long enough to reach your pumps, in our case we used wires aroun
 
 ## Assembly - Fan
 
-3D print the ![magnet holder](magnet holder.stl). Add in two magnets using glue, orientate the mangets with the same polarity.
+3D print the ![magnet holder](magnet%20holder.stl). Add in two magnets using glue, orientate the mangets with the same polarity.
 
 The magnet holder has been designed to snap-fit onto the fan (mouser: 108-ASB0305HP-00CP4), but depending on exact print conditions may need slight adjustments to the arms, e.g. with a scalpel. A central fit over the motor is key, otherwise vibration will be a problem.
 ![3D printed magnet holder on fan](images/stirrer.JPG)
-Laser cut the ![Fan Package](Fan\ Package.dwg) from acrylic sheet (3mm), or design your own custom one to fit your application. The design should leave the mangets free to rotate in close proximity to the syringe.
+Laser cut the ![Fan Package](Fan%20Package.dwg) from acrylic sheet (3mm), or design your own custom one to fit your application. The design should leave the mangets free to rotate in close proximity to the syringe.
 
 
 
