@@ -40,7 +40,17 @@ Sugru  |  1  |  -  |  Amazon  |  ~£6.00
 
 ![Circuit Diagram](images/Circuit_diagram.png)
 
+## Asembly - electronics
 
+There is no need to add headers to the arduino board, solder the connections directly to the board according to the wiring diagram above. A short strip of protoboard is used to create a 5V rail for all the 5V power connections (motors, screen & potentiometers).
+
+The potentiometers are used to allow user input of the desired RPM, their central pins are connected to pins A1 or A2 (suitable for analog read of the potentiometer voltage). 
+
+The screen will be programmed to display the set point and current RPM for each motor. It connects to pins A4 and A5 designated as the SCL and SDA pins on the arduino nano.
+
+The tachometer pin (yellow) of each motor must be pulled high using a resistor (I used 10kOhm), and connected to digital pins 2 or 3 on the arduino nano, as these pins can be connected to interrupts to enable more accurate assesment of RPM.
+
+The PWM pins of the motor are connected to digital pins 4 or 5 (or any capable of PWM output)
 
 
 
