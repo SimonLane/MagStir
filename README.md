@@ -59,8 +59,9 @@ The magnet holder has been designed to snap-fit onto the fan (mouser: 108-ASB030
 ![3D printed magnet holder on fan](images/stirrer.JPG)
 Laser cut the ![Fan Package](Fan%20Package.dwg) from acrylic sheet (3mm), or design your own custom one to fit your application. The design should leave the mangets free to rotate in close proximity to the syringe.
 
+## Assembly - Controller
 
-
+The screen and potentiometers were attached to the controller front plate first with hot glue. Then other components were added into the remainng spaces. ![inside controller](images/controller_inside.JPG)
 
 
 
