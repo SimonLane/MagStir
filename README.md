@@ -66,7 +66,7 @@ The screen and potentiometers were attached to the controller front plate first 
 
 ## Arduino code
 
-The provided ![arduino code](Stirrer%20PID.ino) can be uploaded to the board by following the instructions ![here](https://www.arduino.cc/en/Guide/HomePage) to install the Arduino IDE and ![upload the script](https://www.arduino.cc/en/Guide/ArduinoNano#toc5).
+The provided ![arduino code](Stirrer%20PID.ino) can be uploaded to the board by following the instructions to ![install the Arduino IDE](https://www.arduino.cc/en/Guide/HomePage) and ![upload the script](https://www.arduino.cc/en/Guide/ArduinoNano#toc5).
 
 
 
